@@ -28,8 +28,6 @@ Product page and documentation: [forextradingtools.eu/en/marketplace/mtf-bolling
 - Persistent panel position, panel state, and timeframe visibility per chart.
 - Visual indicator only; it does not place or manage trades.
 
-![MTF Bollinger Bands panel](screenshots/mtf-bollinger-bands-mt5-panel.png)
-
 ## Supported timeframes
 
 | Timeframe | Label | Default colour |
@@ -143,7 +141,10 @@ src/
     CBollingerBandMTF.mqh           Local MTF Bollinger helper include
 releases/
   fxtt-mtf-bollinger-bands-mt5.ex5  Compiled MetaTrader 5 release
-screenshots/                         Product screenshots
+screenshots/
+  mtf-bollinger-bands-mt5-chart.png      Genuine chart screenshot
+  mtf-bollinger-bands-mt5-settings.png   MT5 settings screenshot
+  mtf-bollinger-bands-mt5-confluence.png Confluence screenshot
 LICENSE                              MIT license
 ```
 
